@@ -1,1 +1,7 @@
 arduino
+#define LCD_DIN    10   // GPIO 10 on Raspberry Pi
+#define LCD_SCLK   11   // GPIO 11 on Raspberry Pi
+#define LCD_A0      8   // GPIO 8 on Raspberry Pi
+#define LCD_RESET  25   // GPIO 25 on Raspberry Pi
+#define LCD_CS      7   // GPIO 7 on Raspberry Pi
+ST7565_LCD display = ST7565_LCD(LCD_DIN, LCD_SCLK, LCD_A0, LCD_RESET, LCD_CS);
