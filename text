@@ -7,3 +7,7 @@ arduino
 ST7565_LCD display = ST7565_LCD(LCD_DIN, LCD_SCLK, LCD_A0, LCD_RESET, LCD_CS);
 
 platformio
+cd Documents
+cd ST7565_LCD
+cd src
+./abaxial.ino
