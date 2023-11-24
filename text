@@ -11,3 +11,6 @@ cd Documents
 cd ST7565_LCD
 cd src
 ./abaxial.ino
+
+sudo apt-get update
+sudo apt-get install libspi-dev
